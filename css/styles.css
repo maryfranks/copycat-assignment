@@ -1,0 +1,112 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 1.2em;
+}
+header {
+  background-color: #06D6A0;
+  padding: 0 20px;
+  text-align: center;
+  height: 60px;
+}
+
+img {
+  max-width: 100%;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer {
+  background-color: #06D6A0;
+  height: 50px;
+  line-height: 50px;
+  text-align: right;
+  padding: 0 20px;
+}
+main {
+  clear: both;
+  width: 90%;
+  margin: auto;
+}
+.logo {
+  margin: 0;
+  color: white;
+  float: left;
+  line-height: 60px;
+  font-size: 18px;
+}
+
+.navbar {
+  float: right;
+  padding: 0;
+}
+
+.nav-item {
+  display: inline-block;
+  margin-right: 10px;
+  line-height: 60px;
+  margin-bottom: 5px;
+}
+.hero {
+  overflow: hidden;
+  background-color: #26547C;
+  color: white;
+}
+.hero-content {
+  text-align: center;
+  float: left;
+  width: 40%;
+  font-size: 25px;
+}
+
+.hero-content > h2 {
+  display: inline-block;
+  padding-bottom: 5px;
+  border-bottom: 5px solid #EF476F;
+  border: 0;
+}
+.hero-image {
+  float: left;
+  width: 60%;
+}
+.cats,
+.products,
+.about {
+  padding: 30px 20px;
+}
+.cats {
+  background-color: #FFD166;
+}
+.products {
+  background-color: #F2F2F2;
+}
+.product-wrapper {
+  overflow: hidden;
+}
+.product {
+  float: left;
+  width: 33%;
+  padding: 10px;
+}
+.product > img {
+  border: 3px solid black;
+}
+.about {
+  background-color: #26547C;
+  color: white;
+}
+
+.fun,
+.values,
+.meow {
+  float: left;
+  width: 33.33333%;
+  text-transform: uppercase;
+  text-align: center;
+  color: #EF476F;
+}
